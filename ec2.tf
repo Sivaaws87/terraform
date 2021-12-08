@@ -8,7 +8,7 @@ resource "aws_instance" "role-test" {
   sudo yum update -y
   sudo yum install -y awslogs
   sudo yum install -y git
-  git clone https://github.com/arvindpathare/terraform-test.git
+  git clone https://github.com/Sivaaws87/terraform
   sudo systemctl start awslogsd
   sudo systemctl enable awslogsd.service
   sudo amazon-linux-extras install docker -y
